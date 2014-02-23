@@ -1,0 +1,3 @@
+create table sristi11_general(attribname varchar(64) not null unique, attribvalue varchar(64) not null);
+
+create table sristi11_registration(mid bigint(20) not null primary key auto_increment, emailid varchar(256) not null, password varchar(32) not null, privilege varchar(16) not null, fullname varchar(256) not null, college varchar(1024) not null, year varchar(32), city varchar(256), address varchar(2048), phone varchar(20) not null, interests varchar(256));
